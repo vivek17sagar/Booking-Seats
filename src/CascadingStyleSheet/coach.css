@@ -1,0 +1,61 @@
+
+
+.coach{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* border: 1px solid red; */
+    width: 800px;
+    /* text-align: center; */
+}
+
+.seatsNumber{
+    padding: 5px 20px;
+}
+
+.btnBook{
+    padding: 5px 13px;
+    margin-left: 10px;
+}
+
+.userInput{
+    margin-bottom: 15px;
+}
+
+.leftSeats{
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+
+.bookedSeats{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid gray;
+    margin: 20px;
+    margin-right: 80px;
+    padding: 5px 15px;
+    padding-bottom: 50px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.bookTicket{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.booked{
+    background-color: orange;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+    margin: 5px;
+    font-weight: 600;
+    padding: 2px;
+    
+}
